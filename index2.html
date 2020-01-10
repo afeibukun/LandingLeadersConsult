@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>One Page Template</title>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <style>
+      body {
+        min-height: 100vh;
+        background: rgb(2, 26, 65);
+      }
+
+      .top-section {
+        background: linear-gradient(
+            0deg,
+            rgba(55, 59, 68, 0.83),
+            rgba(4, 58, 145, 0.83)
+          ),
+          url(https://images.unsplash.com/photo-1556565681-67b9cd907d20?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+        background-size: cover;
+        min-height: 450px;
+        position: relative;
+      }
+
+      .top-section > .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      h1.lead.text-center {
+        font-size: 30px;
+        font-weight: 700;
+        color: #fff;
+      }
+
+      .middle-section {
+        background: linear-gradient(135deg, #00ffd0, #324945);
+        height: 100vh;
+      }
+
+      .middle-section .icon-container img {
+        height: 120px;
+      }
+
+      .middle-section .text-container p {
+        font-weight: 24px;
+        font-weight: 500;
+        color: #fff;
+      }
+
+      code {
+        border-radius: 10px;
+        border: 1px solid;
+        padding: 5px 10px;
+        color: #324945;
+      }
+
+      .links-container a {
+        text-transform: uppercase;
+      }
+
+      .links-container a:hover {
+        text-decoration: underline;
+      }
+
+      .links-container a:not(:last-child) {
+        border-right: 1px solid #324945;
+        padding-right: 7px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="main-wrapper">
+      <section class="py-5 middle-section">
+        <div class="container">
+          <div class="row">
+            <div class="content py-5 my-5 w-100">
+              <h1 class="lead text-center pb-3">
+                Dunnice Catering
+              </h1>
+              <div class="icon-container text-center">
+                <img
+                  src="https://image.flaticon.com/icons/svg/1923/1923756.svg"
+                  alt="cloud"
+                />
+              </div>
+              <div class="text-container text-center py-3">
+                <p>
+                  The Web Developer is cooking up something cool
+                </p>
+                <code>Stay Tuned</code>
+              </div>
+
+              <div class="links-container w-100 text-center">
+                <a href="#" class="text-white">Adeife</a>
+                <a href="#" class="text-white">Ifectiv Touch</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
